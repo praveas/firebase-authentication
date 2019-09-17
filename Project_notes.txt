@@ -12,7 +12,7 @@ console.firebase.google.com // create a account
 
 developers.facebook.com/apps
 need an APPID and APP_Secret
-https://www.youtube.com/watch?v=zq0TuNqV0Ew
+
 add in firebase page and copy Oauth link from facebook
 then paste that link in developers.facebook.com/apps / Facebook Login/settings/ Valid Oauth Redirect URIs
 
@@ -20,3 +20,4 @@ then paste that link in developers.facebook.com/apps / Facebook Login/settings/ 
 for Twitter
 apps.twitter.com/app/new
 same for github , email/password, google
+
