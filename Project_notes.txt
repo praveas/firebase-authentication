@@ -1,0 +1,22 @@
+first create your react app
+create-react-app <name_of_projet>
+
+add firebase to your project
+npm add firebase
+also intall its react dependencies,
+npm add react-firebaseui
+
+import firebase and react-firebaseui/StyledFirebaseAuth to your APP.js file
+
+console.firebase.google.com // create a account
+
+developers.facebook.com/apps
+need an APPID and APP_Secret
+https://www.youtube.com/watch?v=zq0TuNqV0Ew
+add in firebase page and copy Oauth link from facebook
+then paste that link in developers.facebook.com/apps / Facebook Login/settings/ Valid Oauth Redirect URIs
+
+
+for Twitter
+apps.twitter.com/app/new
+same for github , email/password, google
