@@ -2,11 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import firebase from "firebase";
 import StyledFirebaseAUth from "react-firebaseui/StyledFirebaseAuth";
+const config = require("./util/config");
 
-firebase.initializeApp({
-  apiKey: "AIzaSyCfBYrmFDWoMzziVlSFLtKjeeRdR7KFIFE",
-  authDomain: "fir-authenication-8340a.firebaseapp.com"
-});
+firebase.initializeApp(config);
 
 class App extends Component {
   state = { isSignedIn: false };
